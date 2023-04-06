@@ -17,9 +17,22 @@ do
 done
 '
 
+
 until [ $number -ge 20 ]
 do 
     echo "Number_3: $number"
     # increment
     number=$(( number+1 ))
+done
+
+
+for i in 1 2 3 4 5
+do  
+    echo $i
+done
+
+
+for i in {0..10}
+do  
+    echo $i
 done
