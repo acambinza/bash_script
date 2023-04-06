@@ -1,0 +1,15 @@
+total 52
+drwxrwxr-x  3 anselmocambinza anselmocambinza 4096 Apr  6 12:57 .
+drwxr-xr-x 41 anselmocambinza anselmocambinza 4096 Apr  6 10:03 ..
+-rwxrwxr-x  1 anselmocambinza anselmocambinza  557 Apr  6 10:49 confitional_statement.sh
+-rw-rw-r--  1 anselmocambinza anselmocambinza  978 Apr  6 12:57 file1.txt
+-rw-rw-r--  1 anselmocambinza anselmocambinza   51 Apr  6 12:55 file2.txt
+-rw-rw-r--  1 anselmocambinza anselmocambinza    0 Apr  6 12:57 file3.txt
+-rw-rw-r--  1 anselmocambinza anselmocambinza    7 Apr  6 12:54 file_cat.txt
+-rw-rw-r--  1 anselmocambinza anselmocambinza  627 Apr  6 12:50 file.txt
+drwxrwxr-x  8 anselmocambinza anselmocambinza 4096 Apr  6 12:57 .git
+-rwxrwxr-x  1 anselmocambinza anselmocambinza  381 Apr  6 10:30 hello.sh
+-rwxrwxr-x  1 anselmocambinza anselmocambinza  431 Apr  6 11:15 loop.sh
+-rw-rw-r--  1 anselmocambinza anselmocambinza  206 Apr  6 10:09 README.md
+-rwxrwxr-x  1 anselmocambinza anselmocambinza  283 Apr  6 12:51 script_input.sh
+-rwxrwxr-x  1 anselmocambinza anselmocambinza  107 Apr  6 12:57 script_output.sh
