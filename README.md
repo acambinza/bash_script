@@ -17,3 +17,24 @@ chmod +x file_name.sh
 
 # Show default bash
 - which bash
+
+- https://wiki.archlinux.org/title/SSMTP
+
+# to send email config
+-  sudo gedit /etc/ssmtp/ssmtp.conf
+
+## the values above 
+root=
+mailhub=
+AuthUser=
+AuthPass=
+
+## after finish Ctrl + d in blank line to send you email
+
+
+## using a file external 
+
+- ./sendemail.sh -t < sendemail.txt
+
+# example files to download
+- https://proof.ovh.net/files/
