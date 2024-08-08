@@ -1,40 +1,41 @@
-# bash_script
+## SCRIPT BASH
 
 
-# INIT
-clone the project 
+## Shebang
 
-# Change Permission of file 
-chmod +x file_name.sh
+A "shebang" é uma sequência de caracteres que aparece no início de scripts em sistemas Unix e Unix-like (como Linux e macOS). Ela indica ao sistema qual interpretador deve ser usado para executar o script. A linha shebang começa com `#!` (chamado de hashbang ou sharp-bang) seguido do caminho para o interpretador.
 
-# RUN
-./file_name.sh
+#!/usr/bin/env python3
 
+Isso diz ao sistema para usar o interpretador Python 3 
 
-# Show all shells in your machine
-- cat /etc/shells 
+e fosse um script Bash, o shebang poderia ser:
 
+#!/bin/bash
 
-# Show default bash
-- which bash
+### Variables
 
-- https://wiki.archlinux.org/title/SSMTP
+- Syntax
+    
+    VARIABLE_NAME=”value”
+    
 
-# to send email config
--  sudo gedit /etc/ssmtp/ssmtp.conf
+Obs.: do not use space after or before a equals signal 
 
-## the values above 
-root=
-mailhub=
-AuthUser=
-AuthPass=
+- Usage
+    
+    echo “I like $VARIABLE_NAME”
+    
+    or
+    
+    echo “ I like ${VARIABLE_NAME} “
+    
 
-## after finish Ctrl + d in blank line to send you email
+### Tests
 
+- Syntax 
+    [ condition-to-test-for ]
 
-## using a file external 
+- Example
+    [ -e /etc/password ]
 
-- ./sendemail.sh -t < sendemail.txt
-
-# example files to download
-- https://proof.ovh.net/files/
