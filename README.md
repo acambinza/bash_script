@@ -477,3 +477,51 @@ esac
         TEST_VAR="test"
         echo "$TEST_VAR"       
     ```
+
+<code>
+    set -x : to start debagging <br>
+    set +x : to stop debagging
+</code>
+
+
+* -e : Exit on error
+* - Can be combined with other oprions
+    - #!/bin/bash -ex
+    - #!/bin/bash -xe
+    - #!/bin/bash -e -x
+    - #!/bin/bash -x -e
+
+
+* -v : Prints shell input lines as they are read
+* - Can be combined with other oprions
+    - #!/bin/bash -exv
+    - #!/bin/bash -xev
+    - #!/bin/bash -e -x -v
+    - #!/bin/bash -x -e -v
+
+## PS4
+    - Controls what is displayed before a line when using the "-x" option
+    - The default value is "+"
+    - Bash Variables
+        - BASH_SOURCE, LINENO, etc
+
+- dos2unix
+
+# Sed and Streams
+- Sed = Stream editor
+- A stream is data that travel from:
+    - One process to another through a pipe
+    - One file to another as a redirect
+    - One device to another
+- Standard Input = Standard Input Stream, etc.
+- Stream are typically textual data
+
+
+## SED Usage
+- Sed performs text transformations on streams.
+    - examples
+        - Substitute some text for other text
+        - Remove lines
+        - Append text after given lines
+        - Insert text before certain lines
+- Sed is used programmatically, not interactively
